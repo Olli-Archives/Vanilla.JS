@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Vanilla Javascript Project</title>
+</head>
+<body>
+<header>
+    <div class="title">
+        Sweet Sweet Note Maker
+    </div>
+</header>
+<div class="intro">
+    <ul>
+        <li>
+            <h1 class="intro_h1">Welcome to Sweet Sweet Note Maker 2000!</h1>
+        </li>
+        <li>
+            <p>Our goal is to help you digitize all of those post its. Don't worry, even if you refresh the browser
+                we will keep your fabulous notes right where they belong, in front of your face! To create a new note,
+                fill the text area below and hit submit. To delete all notes press the delete button.
+            </p>
+        </li>
+    </ul>
+</div>
+<div>
+    <ul>
+        <li>
+            <textarea id="textArea" type="text" placeholder="Insert New Note Here"></textarea>
+        </li>
+        <li>
+            <button id="add">Submit Reminder</button>
+        </li>
+        <li>
+            <button id="nuke" class="danger">Delete ALL Reminders</button>
+        </li>
+    </ul>
+</div>
+
+<div class="notes" id="renderNotes">
+
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
